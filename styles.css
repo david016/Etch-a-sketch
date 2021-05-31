@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: rgb(63, 58, 58);
+}
+
+/* Layout */
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.settings {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  width: 25%;
+}
+
+.settings div {
+  margin-top: 1em;
+}
+
+.sketch {
+  width: 75%;
+  margin: 5em auto;
+  display: grid;
+  grid-auto-rows: 15px;
+  justify-content: center;
+  width: 275px;
+}
+
+.sketch div {
+  background: white;
+  border: 1px solid black;
+}
+
+label {
+  padding-right: 2rem;
+}
+input[type="text"] {
+  border: 3px solid black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+p {
+  margin: 1em 0;
+}

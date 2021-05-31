@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Etch a sketch</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="settings">
+        <h1>Etch a sketch</h1>
+        <form action="">
+          <div>
+            <label for="color"> Choose a color: </label>
+            <input type="color" name="color" id="color" />
+          </div>
+          <div>
+            <label for="text">
+              How many squares in a row and column you want? (1 - 99)
+            </label>
+            <input
+              type="text"
+              name="text"
+              size="11"
+              id="text"
+              placeholder=" Write a number"
+              maxlength="2"
+            />
+          </div>
+        </form>
+
+        <p>
+          Click and hover over squares to draw. Click again to stop drawing.
+        </p>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
